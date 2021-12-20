@@ -7,4 +7,8 @@ git submodule foreach git checkout master
 git submodule foreach git reset --hard
 git submodule foreach git pull origin master
 
+cd Assets\RealSenseSDK2.0
+git checkout unity-2018-lts
+cd ..\..
+
 @pause
